@@ -1,0 +1,125 @@
+
+*{
+  font-family: 'Unica One', cursive;
+}
+
+
+body{
+    background:#f0faff;
+}
+
+p{
+  margin: 0;
+  font-size: 17px;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 32px;
+  font-size: 16px;
+  border-bottom: 2px solid #3dbbff;
+  border-radius: 12px;
+}
+
+.navbar p{
+  margin : 0;
+}
+
+.navbar a.dashboard_link{
+  color : #3dbbff;
+  border-right: 0;
+  margin-left: 10px;
+}
+
+.logo a{
+  color : #3dbbff;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.logo a h1 span{
+  display: block;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.logo a h1{
+  font-size: 34px;
+  border-bottom: 2px solid  #3dbbff;
+  padding: 8px;
+  font-weight: bolder;
+}
+
+.logo a:hover{
+   color : Orange;
+   transition: 0.5s;
+}
+
+.logo a:hover h1{
+  border-bottom: 2px solid orange;
+  transition: 0.2s;
+}
+
+.userDet{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userDet a{
+  margin-right: 8px;
+  padding-right: 8px;
+  border-right : 1px solid #3dbbff;
+  text-decoration: none;
+  color : black;
+}
+
+
+h1{
+  font-size: 28px;
+  padding: 8px;
+  border-bottom: 1px solid #3dbbff;
+  display: inline-block;
+  margin-bottom: 32px;
+}
+
+.hold{
+  background: linear-gradient(to bottom right, #00a6ff ,#3dbbff, #82d3ff);
+  outline: 0;
+  border : 0;
+  font-size: 18px;
+  margin-top: 16px;
+  color : white;
+  transition: 0.5s;
+}
+
+.hold:hover{
+  padding: 8px 32px;
+  color: white;
+  transition: 0.5s;
+}
+
+input.form-control:focus{
+  border:0;
+  outline:0;
+  box-shadow: none;
+  padding: 16px;
+  transition: 0.5s;
+}
+
+.btn-search{
+  color : white;
+  background: black;
+  transition: 0.5s;
+}
+
+.btn-search:hover{
+  color : white;
+  background: #3dbbff;
+  transition: 0.5s;
+}
+
+.card{
+  margin: 12px auto;
+}

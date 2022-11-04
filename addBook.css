@@ -1,0 +1,82 @@
+*{
+  font-family: 'Unica One', cursive;
+}
+
+
+body{
+    background:#f0faff;
+}
+
+p{
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 32px;
+  font-size: 16px;
+  border-bottom: 2px solid #3dbbff;
+  border-radius: 12px;
+}
+
+.navbar p{
+  margin : 0;
+}
+
+.logo a{
+  color : #3dbbff;
+  transition: 0.5s;
+
+  /* text-decoration: none; */
+}
+
+.logo a h1 span{
+  display: block;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.logo a h1{
+  font-size: 34px;
+  border-bottom: 2px solid  #3dbbff;
+  padding: 8px;
+  font-weight: bolder;
+}
+.logo a:hover{
+   color : Orange;
+   transition: 0.5s;
+}
+
+.logo a:hover h1{
+  border-bottom: 2px solid orange;
+  transition: 0.2s;
+}
+
+
+.userDet{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userDet a{
+  margin-right: 8px;
+  padding-right: 8px;
+  border-right : 1px solid #3dbbff;
+  text-decoration: none;
+  color : black;
+}
+
+
+.heading{
+  padding: 16px;
+  text-align: center;
+}
+
+.card{
+  margin: 12px auto;
+}
